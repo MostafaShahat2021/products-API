@@ -5,7 +5,7 @@ This is a simple CRUD (Create, Read, Update, Delete) API for managing products. 
 
 ## Live Demo
 Check out the live demo of the API endpoints 
-- [Get all products](https://products-pl95bev8g-mostafashahat2021s-projects.vercel.app/api/products/)
+- [Get all products](https://products-api-lovat.vercel.app/api/products/)
 - For detailed endpoints usage please refer to the [Usage Section](#Usage)
 ## Built With
 - **Node.js** (Express)
@@ -48,19 +48,19 @@ The API provides the following endpoints:
 - **Method**: GET
 - **Endpoint**: `/api/products`
 - **Description**: Retrieves a list of all products.
-- **Example**: [Get All Products](https://products-pl95bev8g-mostafashahat2021s-projects.vercel.app/api/products)
+- **Example**: [Get All Products](https://products-api-lovat.vercel.app/api/products)
 
 #### Add Product
 - **Method**: POST
 - **Endpoint**: `/api/products`
 - **Description**: Adds a new product.
-- **Example**: [Add Product](https://products-pl95bev8g-mostafashahat2021s-projects.vercel.app/api/products)
+- **Example**: [Add Product](https://products-api-lovat.vercel.app/api/products)
 
 #### Get Single Product
 - **Method**: GET
 - **Endpoint**: `/api/products/:id`
 - **Description**: Retrieves a single product by its ID.
-- **Example**: [Get Single Product](https://products-pl95bev8g-mostafashahat2021s-projects.vercel.app/api/products/66bfa8d11d52e2c3b4c604e8)
+- **Example**: [Get Single Product](https://products-api-lovat.vercel.app/api/products/66bfa8d11d52e2c3b4c604e8)
 
 ### Update Product
 - **Method**: PUT
