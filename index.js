@@ -22,9 +22,13 @@ app.get("*", (req, res) => {
   res.send("<h1>404 Page not found</h1>")
 })
 
-mongoose.connect(process.env.MONGODB_URI)
-  .then(() => {
-    console.log("MongoDB Connected");
-    app.listen(port, () => console.log(`Server Running on port ${port}`))
-  })
-  .catch(err => console.log(err))
+const connection = async () => {
+  await mongoose.connect(process.env.MONGODB_URI)
+    .then(() => {
+      console.log("MongoDB Connected");
+      app.listen(port, () => console.log(`Server Running on port ${port}`))
+    })
+    .catch(err => console.log(err))
+}
+
+connection();
