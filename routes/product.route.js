@@ -8,19 +8,15 @@ const {
 } = require("../controllers/product.controller");
 const router = express.Router();
 
-//Get all Products
-router.get("/", getProducts);
+
+router.route("/")
+  .get(getProducts)
+  .post(addProduct);
 
 // Get single Product
-router.get("/:id", getProduct);
-
-// Add Product
-router.post("/", addProduct);
-
-// Update Product
-router.put("/:id", updateProduct);
-
-// Delete Product
-router.delete("/:id", deleteProduct);
+router.route("/:id")
+.get(getProduct)
+.put(updateProduct)
+.delete(deleteProduct);
 
 module.exports = router;
