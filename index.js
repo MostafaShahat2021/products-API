@@ -18,6 +18,10 @@ app.get("/", (req, res) => {
   res.send("<h1>Heloo World</h1>")
 });
 
+app.get("*", (req, res) => {
+  res.send("<h1>Page not found</h1>")
+})
+
 mongoose.connect(process.env.MONGODB_URI)
   .then(() => {
     console.log("MongoDB Connected");
