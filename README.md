@@ -3,6 +3,10 @@
 ## Overview
 This is a simple CRUD (Create, Read, Update, Delete) API for managing products. It is built using Node.js with Express for the server and MongoDB with Mongoose for the database. The project follows the MVC (Model-View-Controller) architecture pattern.
 
+## Live Demo
+Check out the live demo of the API endpoints 
+- [Get all products](https://products-pl95bev8g-mostafashahat2021s-projects.vercel.app/api/products/)
+- For detailed endpoints usage please refer to the [Usage Section](#Usage)
 ## Built With
 - **Node.js** (Express)
 - **MongoDB** (Mongoose)
@@ -44,31 +48,29 @@ The API provides the following endpoints:
 - **Method**: GET
 - **Endpoint**: `/api/products`
 - **Description**: Retrieves a list of all products.
-- **Example**: [Get All Products](http://localhost:3000/api/products)
+- **Example**: [Get All Products](https://products-pl95bev8g-mostafashahat2021s-projects.vercel.app/api/products)
 
 #### Add Product
 - **Method**: POST
 - **Endpoint**: `/api/products`
 - **Description**: Adds a new product.
-- **Example**: [Add Product](http://localhost:3000/api/products)
+- **Example**: [Add Product](https://products-pl95bev8g-mostafashahat2021s-projects.vercel.app/api/products)
 
 #### Get Single Product
 - **Method**: GET
 - **Endpoint**: `/api/products/:id`
 - **Description**: Retrieves a single product by its ID.
-- **Example**: [Get Single Product](http://localhost:3000/api/products/66bfa86f11d459f8560588c7)
+- **Example**: [Get Single Product](https://products-pl95bev8g-mostafashahat2021s-projects.vercel.app/api/products/66bfa8d11d52e2c3b4c604e8)
 
-#### Update Product
+### Update Product
 - **Method**: PUT
 - **Endpoint**: `/api/products/:id`
 - **Description**: Updates an existing product by its ID.
-- **Example**: [Update Product](http://localhost:3000/api/products/66c0e70076857b69a75ada1c)
 
-#### Delete Product
+### Delete Product
 - **Method**: DELETE
 - **Endpoint**: `/api/products/:id`
 - **Description**: Deletes a product by its ID.
-- **Example**: [Delete Product](http://localhost:3000/api/products/66c0e70076857b69a75ada1c)
 
 ## Project Structure
 ```
