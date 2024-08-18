@@ -13,6 +13,9 @@ Check out the live demo of the API endpoints
 - **MongoDB** (Mongoose)
 - **MVC Architecture**
 
+## Deployment
+This API is deployed using [Vercel](https://vercel.com/home).
+
 ## Getting Started
 
 ### Prerequisites
