@@ -19,7 +19,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("*", (req, res) => {
-  res.send("<h1>404 Page not found</h1>")
+  res.json({"messaage": "Resurce not exist!"})
 })
 
 const connection = async () => {
