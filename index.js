@@ -15,10 +15,10 @@ app.use(express.urlencoded({ extended: false }));
 app.use("/api/products", productRoute)
 
 app.get("/", (req, res) => {
-  res.send("<h1>Heloo World</h1>")
+  res.send("<h1>Welcome to Products API</h1><a href='/api/products'>Products</a>")
 });
 
-app.get("*", (req, res) => {
+app.all("*", (req, res) => {
   res.json({"messaage": "Resurce not exist!"})
 })
 
