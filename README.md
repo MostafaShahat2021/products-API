@@ -5,6 +5,7 @@ This is a simple CRUD (Create, Read, Update, Delete) API for managing products. 
 
 ## Live Demo
 Check out the live demo of the API endpoints 
+- [Home Page](https://products-api-lovat.vercel.app/)
 - [Get all products](https://products-api-lovat.vercel.app/api/products/)
 - For detailed endpoints usage please refer to the [Usage Section](#Usage)
 ## Built With
